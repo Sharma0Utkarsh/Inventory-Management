@@ -2,10 +2,6 @@
 
 A full-stack Inventory Management System built with React.js, Node.js, Express, and MongoDB to efficiently manage products, stock, and inventory operations.
 
-🚀 Live Demo
-
-(Add link after deployment — e.g., Vercel / Render / Railway)
-
 ✨ Features
 ➕ Add new products
 📋 View inventory list
@@ -19,98 +15,10 @@ Frontend	React.js, CSS, JavaScript
 Backend	Node.js, Express.js
 Database	MongoDB
 Tools	Git, GitHub, Postman
-📁 Project Structure
-Inventory-Management/
-│
-├── Backend/
-│   ├── models/
-│   ├── routes/
-│   ├── config/
-│   └── server.js
-│
-├── Frontend/
-│   └── IMS/
-│       ├── src/
-│       └── public/
-│
-└── README.md
 
-⚙️ Installation & Setup
-1️⃣ Clone Repository
-git clone https://github.com/Sharma0Utkarsh/Inventory-Management.git
-cd Inventory-Management
-2️⃣ Backend Setup
-cd Backend
-npm install
-
-Create .env file:
-
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-
-Run backend:
-
-npm start
-3️⃣ Frontend Setup
-cd Frontend/IMS
-npm install
-npm start
-🌐 API Endpoints
-Method	Endpoint	Description
-GET	/products	Get all products
-POST	/products	Add product
-PUT	/products/:id	Update product
-DELETE	/products/:id	Delete product
-📸 Screenshots
-
-(Add screenshots here later for better presentation)
-
-🔐 Environment Variables
-
-Create a .env file in the Backend folder:
-
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-🚀 Deployment
-Frontend: Vercel / Netlify
-Backend: Render / Railway
-Database: MongoDB Atlas
-🧠 Future Enhancements
-🔐 Authentication (JWT)
-📊 Dashboard & Analytics
-🔍 Search & Filter
-📦 Low stock alerts
-👥 Role-based access control
-👨‍💻 Author
-
-Utkarsh Sharma
-🎓 B.Tech CSE (2022–2026)
-💻 Full Stack Developer
-
-🤝 Contributing
-
-Contributions are welcome!
-
-fork → clone → create branch → commit → push → PR
-📜 License
 
 This project is licensed under the MIT License.
 
-🔥 Make it Git Ready (IMPORTANT)
-✅ 1. Create .gitignore
-
-Create a file named .gitignore in root:
-
-node_modules/
-.env
-dist/
-build/
-✅ 2. Remove node_modules if already tracked
-git rm -r --cached node_modules
-✅ 3. Final Git Commands
-git add .
-git commit -m "Added project with README"
-git push -u origin main
 ⭐ Show Your Support
 
 If you like this project, give it a ⭐ on GitHub!
